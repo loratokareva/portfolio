@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Рассылка текстовая</title>
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="/common/jquery/js/jquery-1.10.1.min.js"></script>
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="/common/jquery/js/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="/common/jquery/css/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox-1").fancybox({
+				helpers: {
+					title : {
+						type : 'inside'//outside
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+			});
+			// Disable opening and closing animations, change title type
+			$(".fancybox-2").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+		});
+	</script>
+
+
+</head>
+<body>
+
+<table   cellspacing="0" cellpadding="40" bgcolor="#ffffff"  style="border:solid 1px #c6c8cd;">
+	<tr>
+		<td>
+
+
+		<table width="600" cellspacing="0" cellpadding="0">
+		<tr>
+			<td  style="padding:0px 0px 10px 0px">
+				<img src="/portfolio/images/email/mnogoru_logo.png" alt="" width="135" height="47" border="0">
+			</td>
+		</tr>
+
+		<tr>
+			<td >
+				<h1 style="color:#202126;font-family:Arial,Helvetica,sans-serif;font-size:24px;line-height:24px;font-weight: 400;padding:0 0 15px 0;">
+				Заголовок рассылки
+				</h1>
+			</td>
+		</tr>
+
+		<tr>
+			<td  style="color:#4b5261;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:24px;padding-bottom:20px">
+			Очень важный для пользователя информационный текст. Он содержит осноное предложение компании для клиента и должно обратить его внимание на описанную услуги. Главный итог письма - заставить пользователя отреагировать так как это требуется.
+
+			</td>
+		</tr>
+
+		<tr>
+			<td  style="color:#4b5261;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:24px;padding-bottom:40px">
+				<table align="center" style="width: 215px; height: 44px;">
+				<tr>
+				<td align="center" style="background:#7d268c;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;"><a href="#" style="display:block;color:#ffffff;text-decoration:none;text-align:center;" target="_blank">Оценить работу</a></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+
+		<tr>
+			<td  style="color:#4b5261;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:24px;padding-bottom:20px">
+			Дополнительный текст, который позволяет что-то прояснить для пользователя или что-то еще менее важное чем в основной части сообщения.
+			</td>
+		</tr>
+
+		<tr>
+			<td height="30" style="border-top:1px solid #f2eeed; font-size:0px;"> </td>
+		</tr>
+
+
+		<tr>
+			<td align="center" style="font-family:Arial,Helvetica,sans-serif;font-size:10px;padding-bottom:20px;">
+			<strong style="color:#575d6b;">8 (495) 777-77-77</strong> | <a href="#" style="color:#1e93cf; text-decoration:none">Перейти на сайт</a> | <a href="#"  style="color:#1e93cf; text-decoration:none">Написать
+			письмо</a>
+
+
+			</td>
+		</tr>	
+
+		<tr>
+			<td  style="font-family:Arial,Helvetica,sans-serif;font-size:10px;padding-bottom:20px;">
+
+				<table align="center"   cellspacing="0" cellpadding="5">
+				<tr>
+				<td><a href="#"><img src="/portfolio/images/email/newsletter-1_icon-1.png" alt="" width="25" height="25" border="0"></a></td>
+				<td><a href="#"><img src="/portfolio/images/email/newsletter-1_icon-2.png" alt="" width="25" height="25" border="0"></a></td>
+				<td><a href="#"><img src="/portfolio/images/email/newsletter-1_icon-3.png" alt="" width="25" height="25" border="0"></a></td>
+				<td><a href="#"><img src="/portfolio/images/email/newsletter-1_icon-4.png" alt="" width="25" height="25" border="0"></a></td>
+				<td><a href="#"><img src="/portfolio/images/email/newsletter-1_icon-5.png" alt="" width="25" height="25" border="0"></a></td>
+				</tr>
+				</table>
+
+			</td>
+		</tr>
+
+		<tr>
+			<td style="color:#b7b9c0;font-family:sans-serif;font-size:10px;line-height:16px;">
+			Вы получили данное уведомление в связи с тем, что Ваш адрес электронной почты
+			был указан контактным.<br>
+			Если это письмо было доставлено по ошибке или вы не хотите
+			получать информацию о наших предложениях, то вы можете <a href="#" style="color:#b7b9c0;"><span style="color:#b7b9c0;">отказаться от подписки</span></a>. 
+
+
+			</td>
+		</tr>
+		</table>
+
+		</td>	
+	</tr>
+</table>
+
+
+
+
+
+<table>
+	<tr>
+		<td>
+			<!-- preview + modal window-->
+			<a class="fancybox-2" href="/portfolio/images/email/newsletter-1_screenshot-1.jpg"    title="Скриншот рассылки в программе" height="20"><img src="/portfolio/images/email/icon_1.jpg" alt="" /></a>
+			<!-- preview + modal window-->
+			<a class="fancybox-2" href="/portfolio/images/email/newsletter-1_screenshot-2.jpg"    title="Скриншот рассылки в программе" height="20"><img src="/portfolio/images/email/icon_2.png" alt="" /></a>
+			<!-- preview + modal window-->
+			<a class="fancybox-2" href="/portfolio/images/email/newsletter-1_screenshot-3.jpg"    title="Скриншот рассылки в программе" height="20"><img src="/portfolio/images/email/icon_3.png" alt="" /></a>
+			<!-- preview + modal window-->
+			<a class="fancybox-2" href="/portfolio/images/email/newsletter-1_screenshot-4.jpg"    title="Скриншот рассылки в программе" height="20"><img src="/portfolio/images/email/icon_4.png" alt="" /></a>
+			<!-- preview + modal window-->
+			<a class="fancybox-2" href="/portfolio/images/email/newsletter-1_screenshot-5.jpg"    title="Скриншот рассылки в программе" height="20"><img src="/portfolio/images/email/icon_5.png" alt="" /></a>
+			<!-- preview + modal window-->
+			<a class="fancybox-2" href="/portfolio/images/email/newsletter-1_screenshot-6.jpg"    title="Скриншот рассылки в программе" height="20"><img src="/portfolio/images/email/icon_6.png" alt="" /></a>
+
+	
+</td>
+	</tr>
+</table>	
+
+
+	
+	
+</body>
+</html>

@@ -1,0 +1,219 @@
+ * {
+	 padding: 0;
+	 margin: 0;
+ } 
+ 
+ html, body, #wrapper {
+	 width: 100%;
+	 height: 100%;
+ }
+ body, footer p, footer p a {
+	 font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif;
+ }
+ a {
+	 text-decoration: none;
+ }
+ 
+ ul {
+	list-style: none;
+	position: relative; 
+ }
+ #main header, nav > ul, footer div, article{
+	width: 960px;
+    margin: auto auto;
+ }
+ 
+ #main { 
+	min-height: 100%;
+	margin-bottom: -80px;
+	}
+
+#main header {
+	padding: 30px 0;
+	}
+#main header:after, nav:after {
+	content: '';
+	clear: both;
+	display: block; 	
+	}	
+
+#main header a {
+	float: left;
+	text-decoration: none;
+	background: url(/portfolio/rzd/images/sprite.png) no-repeat;
+}
+
+#main header a:first-child{
+	width: 277px;
+	height: 112px;
+	padding-left: 203px;
+	margin-right: 40px;
+	background-position: 0 0;	
+}
+
+#main header a:first-child, #main .contact p:first-child  {
+	font: 700 22px/1.1 'Open Sans Condensed', Arial, Helvetica, sans-serif;  
+	text-transform: uppercase;
+	color: #0b486b;
+	letter-spacing: -1px;
+}
+#main header a:nth-child(2){
+	width: 122px;
+	height: 55px;	
+	background-position: 0 -112px;	
+}
+
+#main header .contact {
+	float: right;
+	width: 250px;
+}
+
+#main header .contact p {
+	font: 0.9em/1.4 Arial, Tahoma, Verdana, Helvetica, sans-serif;
+    color: #4c5661;
+	}
+	
+#main header .contact p:last-child {
+	color: #439dd1;
+    font: 700 18px/24px 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+    cursor: pointer;
+	padding-left: 40px;
+    margin-top: 20px;
+	background: url(/portfolio/rzd/images/sprite.png) 0 -167px no-repeat;
+	cursor: pointer;
+}
+
+
+
+	
+nav {
+	width: 100%;
+    background: #0b486b;    
+    position: relative;
+    z-index: 4;}
+	
+
+nav > ul:before {
+    content: '';
+    display: block;
+    width: 100%;
+}
+
+nav > ul:after {
+    content: '';
+    display: inline-block;
+    width: 100%;	
+}
+	
+nav > ul {
+	text-align: justify;
+	font-size: 0px;     
+	display: block; }	
+		
+nav > ul > li {
+	display: inline-block;
+	text-align: left;		
+	position: relative;	
+	}
+	
+nav ul > li > a {	
+    display: block;	
+	
+    padding: 0 18px;
+	height: 40px;
+    font: 700  16px/40px 'Open Sans Condensed', Arial, Helvetica, sans-serif;        
+    text-transform: uppercase;
+	text-decoration: none;	
+	color: #fff;	
+	}
+	
+nav > ul > li:hover, nav > ul > li:last-child:hover {
+	    background: #c02942;
+}
+nav > ul > li:last-child {
+	    background: #f89339;
+}
+nav ul > li:hover > ul{ 
+	display: block;	
+}
+
+nav > ul > li > ul {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #c02942;
+	display: none;
+	width: auto; 
+	
+}
+nav li > ul > li > a {
+	font: 14px Arial, Helvetica, sans-serif;
+	text-transform: none;
+	padding: 8px 17px;
+	height: auto;  
+	white-space: nowrap; 
+}
+
+nav li > ul > li > a:hover {
+	color: #ecd078;
+}
+
+
+nav > ul > li > ul > li {
+	display: list-item;
+	white-space: nowrap; 
+}
+
+.background {
+	width: 100%;
+	height: 110px;
+	background: url(/portfolio/rzd/images/hi.jpg) center top no-repeat;
+	border-bottom: 3px solid #0b486b;
+}
+
+article {
+	padding-bottom: 90px;
+}
+
+article h1{
+	font: 700 24px/1.2 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+	color: #c42741;
+}
+
+article a {
+	color: #096ea8;
+}
+article p {
+	margin-bottom: 10px;
+}
+  
+footer {
+	width: 100%;
+	height: 80px;
+	margin-top: -80px;
+	background-color: #0b486b;
+}
+footer div {	
+	padding-top: 20px;
+}
+footer p, footer p a {	
+	color: white;
+	text-decoration: none;
+}
+footer p:last-child {
+	margin-top: 7px;
+}
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
